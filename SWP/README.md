@@ -34,8 +34,9 @@ HTML, CSS, Javascripts, Servlet
 ## Contributors
 - Nguyễn Quốc Công
 - Lê Trần Quang Linh
-- Nguyễn Hoàng Phi Long
+- Trân Thành Công
 - Nguyễn Đình Bảo Khánh
+- Lâm văn Phái
 # 2. Wireframe
 ![Sitemap](sitemap.png)
 ![Home](gui01.png)
