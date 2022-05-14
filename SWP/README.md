@@ -17,15 +17,14 @@ Decentralization system (manager and customer).
 
 **Customer**
 - Provide detailed information with visual product images
+- Pagination
 - Filter search function
-- Register an account
-- Purchase
-- Cart feature
-
+- Account (Register, Login, Update information)
+- Purchase (Cart feature, Checkout, Payment)
 **Manager**
 - Product management (Add, Update, Delete, the number of products)
-- Function to Manage customer information
-- Order management
+- Function to Manage customer information (Update information user, Add and Delete account)
+- Order management ( View all order, detail order, Update status)
 - Function to report revenue, number of buyers, best-selling products to evaluate business performance
 
 ## Tools
