@@ -21,6 +21,7 @@ Decentralization system (manager and customer).
 - Filter search function
 - Account (Register, Login, Update information)
 - Purchase (Cart feature, Checkout, Payment)
+
 **Manager**
 - Product management (Add, Update, Delete, the number of products)
 - Function to Manage customer information (Update information user, Add and Delete account)
