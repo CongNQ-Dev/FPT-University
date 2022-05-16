@@ -36,7 +36,7 @@ HTML, CSS, Javascripts, Servlet
 - Lê Trần Quang Linh
 - Trân Thành Công
 - Nguyễn Đình Bảo Khánh
-- Lâm văn Phái
+- Lâm Văn Phái 
 # 2. Wireframe
 ![Sitemap](sitemap.png)
 ![Home](gui01.png)
