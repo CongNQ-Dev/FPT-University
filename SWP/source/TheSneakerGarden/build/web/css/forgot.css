@@ -1,0 +1,72 @@
+/* Variables */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+    --main-color: #ff7c03;
+    --main-light-color: #ff8b1f;
+    --container-color: #f8f7fc;
+    --text-color: #1a1d22;
+    --bg-color: #fff;
+    --btn-text-color: rgba(0,0,0,.55);
+    --btn-white-text: #ffffff;
+  }
+  .btn {
+    background: var(--main-light-color);
+    border: 1px solid var(--main-light-color);
+    color: var(--btn-white-text);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .btn:hover {
+    background: var(--bg-color);
+    border: 1px solid var(--main-light-color);
+    box-shadow: none;
+    outline: none;
+    color: var(--main-color);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .btn:focus{
+    background: var(--main-light-color);
+    color: var(--btn-white-text);
+    border: 1px solid var(--main-light-color);  
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  
+  .btn:active{
+    background: var(--bg-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-light-color);
+    box-shadow: none;
+  }
+
+.form-control{
+    border: 1px solid var(--main-color);
+    color: var(--btn-text-color);
+}
+.form-control:focus{
+    border: 1px solid var(--main-color);
+    color: var(--btn-text-color);
+    box-shadow: none;
+  
+  }
+
+  h1{
+    text-align: center;
+    color: var(--main-color);
+
+}
+
+
+.text-center{
+    color: var(--btn-text-color);
+}
+
+.label-login:hover,
+.label-login{
+    text-decoration: none;
+    color: var(--main-color);
+}
