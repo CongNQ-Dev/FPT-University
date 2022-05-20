@@ -1,0 +1,102 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+/* Variables */
+:root {
+  --main-color: #ff7c03;
+  --main-light-color: #ff8b1f;
+  --container-color: #f8f7fc;
+  --text-color: #1a1d22;
+  --bg-color: #fff;
+  --btn-text-color: rgba(0,0,0,.55);
+  --btn-white-text: #ffffff;
+}
+/* Custom Scroll Bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background: #474040;
+}
+html::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: var(--text-color);
+}
+
+.btn {
+    background: var(--main-light-color);
+    border: 1px solid var(--main-light-color);
+    color: var(--btn-white-text);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .btn:hover {
+    background: var(--bg-color);
+    border: 1px solid var(--main-light-color);
+    box-shadow: none;
+    outline: none;
+    color: var(--main-color);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .btn:focus{
+    border: 1px solid var(--main-light-color);  
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  
+  .btn:active{
+    background: var(--bg-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-light-color);
+    box-shadow: none;
+  }
+  
+.person {
+    background: var(--main-light-color);
+    border: 1px solid var(--main-light-color);
+    color: var(--btn-white-text);
+    box-shadow: none;
+    outline: none;
+    border-radius: 0.25em;
+  }
+  
+  .person:hover {
+    background: var(--bg-color);
+    border: 1px solid var(--main-light-color);
+    box-shadow: none;
+    outline: none;
+    color: var(--main-color);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .person:focus{
+    border: 1px solid var(--main-light-color) !important;  
+    box-shadow: none !important;
+    outline: none !important;
+    color: var(--main-color);
+    background-color: var(--bg-color);
+  }
+  
+  .person:active{
+    background: var(--bg-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-light-color);
+    box-shadow: none;
+  }
+  
+
+.card{
+    height: fit-content;
+    width: fit-content;
+}
