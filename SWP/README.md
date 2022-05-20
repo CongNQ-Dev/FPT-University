@@ -43,10 +43,10 @@ HTML, CSS, Javascripts, Servlet
 ![Shop](gui02.png)
 ![Item](gui03.png)
 ## Database
-- ER model
+- ERD model
 ![ERD](ERD.png)
 - Diagram 
-![Diagram](Diagram.png)
+![Diagram](Diagram-TSG.png)
 # 3. Conclusion
 - Learn how to use github
 - Learn how to run and manage a website 
