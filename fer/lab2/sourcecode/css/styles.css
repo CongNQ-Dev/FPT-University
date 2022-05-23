@@ -50,3 +50,9 @@ body{
 #reserveBtn:hover{
 	transition: all 0.5s;
 }
+/* #upBtn{
+	background-color: darkgrey;
+	position: absolute;
+	right: 0;
+
+} */
