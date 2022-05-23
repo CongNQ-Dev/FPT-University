@@ -1,4 +1,7 @@
 
+html{
+	scroll-behavior: smooth;
+}
 .row-header {
 	margin: 0px auto;
 	padding: 0px;
@@ -43,4 +46,7 @@ body{
 	padding: 10px 0px;
 	border-radius: 100%;
 	overflow: hidden;		
+}
+#reserveBtn:hover{
+	transition: all 0.5s;
 }
