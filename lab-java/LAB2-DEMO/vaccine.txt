@@ -1,6 +1,0 @@
-2;Sinopharm
-4;AstraZeneca
-6;Gam-COVID-Vac
-7;Janssen
-9;Moderna
-10;Pfizer
