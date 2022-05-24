@@ -1,0 +1,2 @@
+1;SE140001;2;TP. Da Nang;null;19/10/2021;null
+2;SE140002;4;Ninh Binh;null;22/10/2021;null
