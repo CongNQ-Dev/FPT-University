@@ -1,78 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
- 
+$background-dark: #512da8;
+$background-light: #9575cd;
+$background-pale: #D1C5E8;
+
 // height variables
 $carousel-item-height: 300px;
 
-// add a mixin 
+// add a mixin
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
-    margin:0px auto;
-    padding: $pad-up-dn $pad-left-right;
+  margin: 0px auto;
+  padding: $pad-up-dn $pad-left-right;
 }
 
 // use of this to define several row classes next
-.row-header{
-    @include zero-margin(0px,0px);
+.row-header {
+  @include zero-margin(0px, 0px);
 }
- 
+
 .row-content {
-    @include zero-margin(50px,0px);
-    border-bottom: 1px ridge;
-    min-height:400px;
+  @include zero-margin(50px, 0px);
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
- 
-.footer{
-    background-color: $background-pale;
-    @include zero-margin(20px, 0px);
+
+.footer {
+  background-color: $background-pale;
+  @include zero-margin(20px, 0px);
 }
- 
+
 .jumbotron {
-    @include zero-margin(70px,30px);
-    background: $background-light ;
-    color:floralwhite;
+  @include zero-margin(70px, 30px);
+  background: $background-light;
+  background-color: #0099ff;
+  color: $lt-gray;
+
+  .btn-warning {
+    background-image: -webkit-linear-gradient(top, #f0ad4e 0, #eb9316 100%);
+    background-image: -o-linear-gradient(top, #f0ad4e 0, #eb9316 100%);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#f0ad4e),
+      to(#eb9316)
+    );
+    background-image: linear-gradient(to bottom, #f0ad4e 0, #eb9316 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    background-color: #e38d13 !important;
+  }
 }
- 
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
 }
- 
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  background-color: #6dd3e7;
 }
- 
+
 .navbar-dark {
-     background-color: $background-dark;
+  background-color: $background-dark;
 }
- 
+
 .tab-content {
-    border-left: 1px solid $lt-gray;
-    border-right: 1px solid $lt-gray;
-    border-bottom: 1px solid $lt-gray;
+  border-left: 1px solid $lt-gray;
+  border-right: 1px solid $lt-gray;
+  border-bottom: 1px solid $lt-gray;
 }
 
 // add a carousel class to use of nesting of classes in Scss
 .carousel {
-    background:$background-dark;
- 
-    .carousel-item {
-        height: $carousel-item-height;
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 300px;
-        }
+  background: $background-dark;
+
+  .carousel-item {
+    height: $carousel-item-height;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
     }
+  }
 }
- 
+
 #carouselButton {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
 }
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#loginModal {
+  .modal-dialog {
+    .modal-content {
+      .modal-header {
+        background-color: $background-dark;
+        color: $lt-gray;
+        .modal-title {
+        }
+        .close {
+          color: $lt-gray;
+        }
+      }
+      .modal-body {
+        background-color: $background-pale;
+      }
+    }
+  }
+}
+#reserveTableModal {
+    .modal-dialog {
+      .modal-content {
+        .modal-header {
+          background-color: $background-dark;
+          color: $lt-gray;
+          .modal-title {
+          }
+          .close {
+            color: $lt-gray;
+          }
+        }
+        .modal-body {
+          background-color: $background-pale;
+          .form-horizontal{
+              .form-group{
+                button:first-child{
+                    margin-left: 32.7777%;
+                }
+
+                  }
+              }
+          }
+        }
+      }
+    }
+  

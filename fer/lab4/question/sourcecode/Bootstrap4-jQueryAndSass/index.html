@@ -10,17 +10,18 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/cloud.css">
     <title>Ristorante Con Fusion</title>
 	
 </head>
 
 <body>
-
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
 		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -34,12 +35,59 @@
 					<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
 					<li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
 				</ul> 
-				<span class="navbar-text ml-auto"><a data-toggle="modal" data-target="#loginModal">
+				<span class="navbar-text ml-auto"><a id="loginModalBtn">
 					<span class="fa fa-sign-in"></span> Login</a></span>
 			</div>         
 		</div>
     </nav>
-	
+    <!-- <div class=" ray">
+        <div class="yellow"></div>
+        <div class="shadow"></div>
+    </div> -->
+  <div class="cloud-create">
+    <!-- <div class="kinto centered">    
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+       </ul>
+     </div> -->
+     <div class="cloud cloud1">    
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+       </ul>
+     </div>
+     <div class="cloud cloud2">    
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+       </ul>
+     </div>
+     
+     <div class="cloud cloud3">    
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+       </ul>
+     </div>
+     
+     <div class="line line1"></div>
+     <div class="line line2"></div>
+     <div class="line line3"></div>
+     <div class="line line4"></div>
+     <div class="line line5"></div>
+  </div>
+    <!-- hihi  -->
+
+	<!-- login modal  -->
 	<div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
@@ -73,10 +121,89 @@
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
+    <!-- reserve table modal  -->
+    <div id="reserveTableModal" class="modal fade in" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Reserve a Table</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+            </div>
+  
+            <div class="modal-body">
+              <form class="form-horizontal" role="form">
+                      <div class="form-group row">
+                          <label class="col-12 col-md-3 control-label">Number of Guests</label>
+                          <div class="form-check ">
+                            <label class="form-check-inline" for="radio1">
+                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" >1
+                            </label>
+                            <label class="form-check-inline" for="radio2">
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">2
+                            </label>
+                            <label class="form-check-inline" for="radio3">
+                                <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">3
+                            </label>
+                            <label class="form-check-inline" for="radio4">
+                                <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option1" >4
+                            </label>
+                            <label class="form-check-inline" for="radio5">
+                                <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option2">5
+                            </label>
+                            <label class="form-check-inline" for="radio6">
+                                <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option3">6
+                            </label>
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label class="col-xs-12 col-md-3 control-label">Section</label>
+                        <div class="col-12 col-md-8">
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-success active">
+                              <input type="radio" name="options" id="option1" autocomplete="off" checked="">Non-smoking
+                            </label>
+                            <label class="btn btn-danger">
+                              <input type="radio" name="options" id="option2" autocomplete="off">Smoking
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+  
+                      <div class="form-group has-feedback row">
+                        <label class="col-xs-12 col-sm-3 control-label">Date and Time</label>
+                        <div class="col-xs-12 col-sm-3">
+                            <input type="text" class="form-control" placeholder="Date">
+                            <span class="glyphicon glyphicon-calendar form-control-feedback" aria-hidden="true"></span>
+                        </div>
+                        <div class="col-xs-12 col-sm-3">
+                            <input type="text" class="form-control" placeholder="Time">
+                            <span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
+                        </div>
+                    </div>
+  
+                      <div class="form-group row">
+                          <div class="col-sm-offset-2 col-sm-10">
+                              <button type="submit" class="btn btn-primary">Reserve</button>
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+
+                          </div>
+                      </div>
+  
+                      <div class="alert alert-warning alert-dismissible" role="alert">
+                          <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                              <span aria-hidden="true">×</span>
+                          </button>
+                          <strong>Warning:</strong>:Please <a href="tel:+7736790814" class="alert-link">call</a> us to reserve for more than six guests.
+                      </div>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
 	
     <header class="jumbotron">
         <div class="container">   
@@ -90,10 +217,11 @@
                 </div>
                 <div class="col-12 col-sm align-self-center">
 					<!--<a role="button" class="btn btn-block btn-sm btn-warning" href="#">Reserve Table</a>-->
-					<a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal" 
-						data-html="true"  title="Or Call us at  <br><strong>+852 12345678</strong>" 
-						data-placement="bottom" href="#reserveform">Reserve Table</a>
+				<a role="button" class="btn btn-block nav-link btn-warning"   title="Or Call us at +852 12345678" 
+                    id="reserveTableModalBtn">Reserve Table</a>
 
+
+                        
                 </div>
             </div>
         </div>
@@ -151,34 +279,33 @@
                         <span class="carousel-control-prev-icon"></span></a>
                     <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon"></span></a>
-																
-					
-					<button class="btn btn-danger btn-sm" id="carouselButton">
-                        <span id="carousel-button-icon" class="fa fa-pause"></span>
-                    </button>
-					
-					<!--
-					<div class="btn-group" id="carouselButton">
-						<button class="btn btn-danger btn-sm" id="carousel-pause">
-							<span class="fa fa-pause"></span>
-						</button>
-						<button class="btn btn-danger btn-sm" id="carousel-play">
-							<span class="fa fa-play"></span>
-						</button>
-					</div>
-					-->
-					
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <span id="carousel-button-icon" class="fa fa-pause"></span>
+                        </button>
+                        
+                        <!--
+                        <div class="btn-group" id="carouselButton">
+                            <button class="btn btn-danger btn-sm" id="carousel-pause">
+                                <span class="fa fa-pause"></span>
+                            </button>
+                            <button class="btn btn-danger btn-sm" id="carousel-play">
+                                <span class="fa fa-play"></span>
+                            </button>
+                        </div>
+                        -->
 				</div>
+                	
+			
 			</div>
 		</div>
 	
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center ">
 			<!-- Replaced flex-first and flex-last with order-1 and order-2 in beta 2 -->
-            <div class="col-sm-4 col-md-3 order-2">   
+            <div class="col-sm-4 col-md-3 order-1 bg-cloud ">   
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
-            <div class="col-sm col-md order-1">
-				<div class="media">
+            <div class="col-sm col-md order-2">
+				<div class="media bg-cloud">
 					<img class="d-flex mr-3 img-thumbnail align-self-center"
 						 src="img/uthappizza.png" alt="Uthappizza">
 					<div class="media-body">
@@ -194,12 +321,12 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-4 col-md-3 bg-cloud">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col-sm col-md">
-                <div class="media">
-                    <div class="media-body">
+                <div class="media bg-cloud">
+                    <div class="media-body ml-3">
 						<h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
 						<p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of
 							five different salads, six enticing appetizers, six main entrees and five choicest desserts.
@@ -213,11 +340,11 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3 order-2">
+            <div class="col-sm-4 col-md-3 order-1 bg-cloud">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
-            <div class="col-sm col-md order-1">
-                <div class="media">
+            <div class="col-sm col-md order-2">
+                <div class="media bg-cloud">
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                          src="img/alberto.png" alt="Alberto Somayya">
                     <div class="media-body">
@@ -232,66 +359,11 @@
                 </div>
             </div>
         </div>
-		
-        <div id="reserveform" class="col-12 offset-md-2 col-sm-6 col-md-8 align-self-center">
-            <div class="card">
-                <h3 class="card-header text-white bg-warning">Reserve a Table</h3>
-                <div class="card-body">
-                    <dl class="row">
-                        <dd class="col-12 col-md-3">Number of Guests</dd>
-                        <dd class="col-12 col-md-8">
-                            <div class="form-check ">
-                                <label class="form-check-inline" for="radio1">
-                                    <input type="radio" class="form-check-input" id="radio1" name="optradio"
-                                        value="option1">1
-                                </label>
-                                <label class="form-check-inline" for="radio2">
-                                    <input type="radio" class="form-check-input" id="radio2" name="optradio"
-                                        value="option2">2
-                                </label>
-                                <label class="form-check-inline" for="radio3">
-                                    <input type="radio" class="form-check-input" id="radio3" name="optradio"
-                                        value="option3">3
-                                </label>
-                                <label class="form-check-inline" for="radio4">
-                                    <input type="radio" class="form-check-input" id="radio4" name="optradio"
-                                        value="option1">4
-                                </label>
-                                <label class="form-check-inline" for="radio5">
-                                    <input type="radio" class="form-check-input" id="radio5" name="optradio"
-                                        value="option2">5
-                                </label>
-                                <label class="form-check-inline" for="radio6">
-                                    <input type="radio" class="form-check-input" id="radio6" name="optradio"
-                                        value="option3">6
-                                </label>
-                            </div>
-                        </dd>
-                        <dd class="col-12 col-md-3">Date and Time</dd>
-                        <dd class="col-12 col-md-9">
-                            <div class="form-group row">
-                                <div class="col-12 col-md-6">
-                                    <input type="tel" class="form-control" id="areacode" name="areacode"
-                                        placeholder="Date">
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Time">
-                                </div>
-                                <div class="form-group row">
-                                    <div class="offset-md-2 offset-2 col-md-8">
-                                        <br>
-                                        <button type="submit" class="btn btn-primary">Reserve</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </dd>
-                    </dl>
-                </div>
-            </div>
-        </div>
-	</div><br>
-	
-    <footer class="footer">
+    </div>
+  <br>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><span><i class="fa-solid fa-arrow-up"></i></span></button>
+
+  <footer class="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-5 offset-1 col-sm-2">
@@ -317,12 +389,12 @@
                 </div>
                 <div class="col col-sm-4 align-self-center">
                     <div style="text-align:center">
-                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa-solid fa-envelope"></i></a>
                     </div>
                 </div>
            </div>
@@ -332,6 +404,7 @@
                 </div>
            </div>
         </div>
+        
     </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
@@ -339,7 +412,8 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>	
-	
+	<script src="index.js"></script>
+    <!-- <script src="game.js"></script> -->
     <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();		
@@ -367,6 +441,13 @@
                     $("#carouselButton").children("span").addClass('fa-pause');                    
                 }
             });
+            $("#reserveTableModalBtn").tooltip();
+            $("#reserveTableModalBtn").click(function(){
+    $("#reserveTableModal").modal();
+  });
+  $("#loginModalBtn").click(function(){
+    $("#loginModal").modal().tooltip();
+  });
 			
         });
     </script>

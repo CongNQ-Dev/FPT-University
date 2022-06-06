@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -9,15 +12,25 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #D1C5E8;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
+  background: #9575cd;
+  background-color: #0099ff;
+  color: #ddd; }
+  .jumbotron .btn-warning {
+    background-image: -webkit-linear-gradient(top, #f0ad4e 0, #eb9316 100%);
+    background-image: -o-linear-gradient(top, #f0ad4e 0, #eb9316 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));
+    background-image: linear-gradient(to bottom, #f0ad4e 0, #eb9316 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    background-color: #e38d13 !important; }
 
 address {
   font-size: 80%;
@@ -26,10 +39,11 @@ address {
 
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
+  z-index: 0;
+  background-color: #6dd3e7; }
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #512da8; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -37,7 +51,7 @@ body {
   border-bottom: 1px solid #ddd; }
 
 .carousel {
-  background: #512DA8; }
+  background: #512da8; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -51,3 +65,44 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+
+#loginModal .modal-dialog .modal-content .modal-header {
+  background-color: #512da8;
+  color: #ddd; }
+  #loginModal .modal-dialog .modal-content .modal-header .close {
+    color: #ddd; }
+
+#loginModal .modal-dialog .modal-content .modal-body {
+  background-color: #D1C5E8; }
+
+#reserveTableModal .modal-dialog .modal-content .modal-header {
+  background-color: #512da8;
+  color: #ddd; }
+  #reserveTableModal .modal-dialog .modal-content .modal-header .close {
+    color: #ddd; }
+
+#reserveTableModal .modal-dialog .modal-content .modal-body {
+  background-color: #D1C5E8; }
+  #reserveTableModal .modal-dialog .modal-content .modal-body .form-horizontal .form-group button:first-child {
+    margin-left: 32.7777%; }
