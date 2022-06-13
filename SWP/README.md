@@ -44,6 +44,7 @@ HTML, CSS, Javascripts, Servlet
 ![Item](gui03.png)
 ## Database
 - ERD model
+![ERD](ERD.png)
 - Diagram 
 ![Diagram](Diagram-TSG_A.png)
 # 3. Conclusion
