@@ -1,0 +1,95 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+/* Variables */
+:root {
+  --main-color: #ff7c03;
+  --main-light-color: #ff8b1f;
+  --container-color: #f8f7fc;
+  --text-color: #1a1d22;
+  --bg-color: #fff;
+  --btn-text-color: rgba(0,0,0,.55);
+  --btn-white-text: #ffffff;
+}
+.btn {
+  background: var(--main-light-color);
+  border: 1px solid var(--main-light-color);
+  color: var(--btn-white-text);
+  box-shadow: none;
+  outline: none;
+}
+
+.btn:hover {
+  background: var(--bg-color);
+  border: 1px solid var(--main-light-color);
+  box-shadow: none;
+  outline: none;
+  color: var(--main-color);
+  box-shadow: none;
+  outline: none;
+}
+
+.btn:focus{
+  background: var(--main-light-color);
+  color: var(--btn-white-text);
+  border: 1px solid var(--main-light-color);  
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn:active{
+  background: var(--bg-color);
+  color: var(--main-color);
+  border: 1px solid var(--main-light-color);
+  box-shadow: none;
+}
+
+.label-title{
+  color: var(--main-color) !important;
+
+}
+
+.bg-primary {
+  background-color: var(--main-color)!important;
+}
+
+.form-select{
+    border: 1px solid var(--main-light-color);  
+}
+
+.form-check-input{
+  border-color: var(--main-color) !important;
+
+}
+.form-check-input:focus,
+.form-check-input:checked{
+  border-color: var(--main-color);
+  background-color:var(--main-color) !important;
+}
+.form-check-input:focus{
+  border-color: var(--main-color) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.form-check-label:active,
+.form-check-label:focus,
+.form-check-label:hover,
+.form-check-label{
+    color: var(--btn-text-color) !important;
+
+}
+.my-0:focus,
+.text-success,
+.my-0{
+  color: var(--btn-text-color) !important;
+}

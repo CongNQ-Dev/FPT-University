@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/addTocart.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/ShopControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/model/Order.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/index.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/shop.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/model/User.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/utils/DBUtils.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/checkout.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/update-order.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/update-user.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/update-item.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/RegisterControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/HistoryOrderControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/cart.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/components/head.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/model/Product.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/UserManagerControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/nike.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/add-order.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/admin.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/update-inventory.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/profile.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/OrderManagerControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/add-inventory.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/item-management.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/register.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/ProductManagerControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/model/CartItem.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/add-item.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/components/header.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/HomeServlet.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/cart.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/dbmanager/ProductManager.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/checkout.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/inventory-management.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/dbmanager/UserManager.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/history.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/order-management.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/DetailControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/product-detail.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/login.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/forgot.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/add.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/about.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/user-management.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/controller/LoginControl.java</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/web/dashboard.jsp</file>
+            <file>file:/F:/Work/Java/TheSneakerGarden/src/java/dbmanager/OderManager.java</file>
+        </group>
+    </open-files>
+</project-private>
