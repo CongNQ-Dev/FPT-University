@@ -44,8 +44,8 @@ HTML, CSS, Javascripts, Servlet
 ![Item](gui03.png)
 ## Database
 - ERD model
-![ERD]
-- Diagram(ERD.png)
+![ERD](ERD.png)
+- Diagram
 ![Diagram](Diagram-TSG.png)
 # 3. Conclusion
 - Learn how to use github
