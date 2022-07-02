@@ -45,8 +45,8 @@ HTML, CSS, Javascripts, Servlet
 ## Database
 - ERD model
 ![ERD]
-- Diagram 
-![Diagram]
+- Diagram(ERD.png)
+![Diagram](Diagram-TSG.png)
 # 3. Conclusion
 - Learn how to use github
 - Learn how to run and manage a website 
